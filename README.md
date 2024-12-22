@@ -28,7 +28,9 @@ Platform ini tidak hanya mempermudah konsumen dalam menemukan dan membeli produk
       <td>
         1. Membangun logika bisnis menggunakan Laravel, termasuk fitur pembelian dan manajemen produk. <br>
         2. Mengembangkan API untuk mendukung komunikasi antara front-end dan back-end. <br>
-        3. Mendesain struktur database yang optimal untuk menyimpan data pengguna, produk, dan transaksi.
+        3. Mendesain struktur database yang optimal untuk menyimpan data pengguna, produk, dan transaksi. <br>
+        4. Membuat halaman untuk menambah, menghapus, dan mengedit kategori produk. <br>
+        5. Mendesain halaman utama (Home) dengan informasi menarik dan navigasi ke kategori produk.
       </td>
     </tr>
     <tr>
@@ -37,7 +39,9 @@ Platform ini tidak hanya mempermudah konsumen dalam menemukan dan membeli produk
       <td>
         1. Mendesain tampilan dan alur penggunaan yang intuitif untuk website marketplace dan manajemen. <br>
         2. Mengembangkan antarmuka pengguna (UI) yang responsif dan intuitif menggunakan HTML, CSS, dan JavaScript. <br>
-        3. Menulis deskripsi produk, panduan penggunaan platform, dan konten lainnya untuk situs web.
+        3. Menulis deskripsi produk, panduan penggunaan platform, dan konten lainnya untuk situs web. <br>
+        4. Membuat halaman detail produk yang menampilkan deskripsi, harga, dan opsi untuk menambah ke keranjang. <br>
+        5. Membuat halaman login dan register untuk pengguna serta admin.
       </td>
     </tr>
     <tr>
@@ -46,7 +50,9 @@ Platform ini tidak hanya mempermudah konsumen dalam menemukan dan membeli produk
       <td>
         1. Melakukan pengujian terhadap fitur-fitur yang dikembangkan untuk memastikan tidak ada bug atau kesalahan. <br>
         2. Menulis laporan hasil uji coba dan menyampaikan feedback kepada tim developer. <br>
-        3. Menyusun laporan kemajuan proyek secara berkala.
+        3. Menyusun laporan kemajuan proyek secara berkala. <br>
+        4. Mengembangkan halaman keranjang belanja untuk menampilkan produk yang akan dibeli. <br>
+        5. Membuat halaman checkout untuk proses pembayaran dan konfirmasi.
       </td>
     </tr>
     <tr>
@@ -55,7 +61,9 @@ Platform ini tidak hanya mempermudah konsumen dalam menemukan dan membeli produk
       <td>
         1. Mengelola deployment dan pengaturan server untuk hosting platform. <br>
         2. Menyusun Entity Relationship Diagram (ERD) untuk menggambarkan struktur database dan hubungan antar entitas. <br>
-        3. Mendesain tabel, indeks, dan relasi database yang dibutuhkan.
+        3. Mendesain tabel, indeks, dan relasi database yang dibutuhkan. <br>
+        4. Membuat halaman untuk menampilkan riwayat pesanan pengguna. <br>
+        5. Mendesain halaman bagi admin/apotek untuk melihat dan mengelola pesanan.
       </td>
     </tr>
   </tbody>

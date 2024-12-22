@@ -8,9 +8,9 @@ Herbify adalah sebuah platform marketplace berbasis web yang dirancang khusus un
 Platform ini tidak hanya mempermudah konsumen dalam menemukan dan membeli produk herbal, tetapi juga menyediakan fitur manajemen bagi pemilik toko. Pemilik dapat dengan mudah menambah, memperbarui, atau menghapus produk mereka melalui sistem yang telah dirancang secara intuitif dan efisien.
 
 ## Link Attachment
-- Link Website :
-- Link Presentation :
-- Link Figma :
+- Link Website : http://herbify.web.id/
+- Link Presentation : https://www.canva.com/design/DAGXYhfna1s/MQitFMVYQuUF9pm20rGrNA/view?utm_content=DAGXYhfna1s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2910cffd13
+- Link Figma : https://www.figma.com/design/lRZdKk7eobSKaRdRaWYhlq/Herbify_WebProgProject?node-id=0-1&t=3kR6ISJt6bGx0TJo-1
 
 ## Team Project
 <table>

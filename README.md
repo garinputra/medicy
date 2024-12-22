@@ -87,7 +87,7 @@ Herbify hadir sebagai platform marketplace berbasis web yang dirancang untuk men
 
 ## ERD Database
 
-![ERD Herbify - Page 1 (1)](https://github.com/user-attachments/assets/5bed09d3-1c7a-49ae-87e4-8b5b35bda961)
+![ERD Herbify - Page 1 (4)](https://github.com/user-attachments/assets/ac6ab238-bc48-4a92-ad81-b9aba8258488)
 
 Gambar di atas merupakan Entity-Relationship Diagram (ERD) dari sistem Herbify, yang dirancang untuk memastikan pengelolaan data yang efisien dan terstruktur.
 
@@ -207,8 +207,12 @@ Herbify menyediakan berbagai fitur untuk mempermudah pengguna dalam mencari dan 
             <td><strong>Manage Category</strong><br>Fitur ini memungkinkan pemilik atau admin untuk mengelola kategori yang telah dibuat. Pemilik atau admin dapat mengedit kategori yang ada jika diperlukan, atau menghapus kategori yang sudah tidak relevan atau terjadi kesalahan pada pembuatan kategori. Hal ini memberikan fleksibilitas dalam menjaga agar kategori produk tetap terorganisir dengan baik.</td>
         </tr>
         <tr>
+            <td><img src="https://github.com/user-attachments/assets/ff032aad-27e3-4887-b3aa-748d0ef6ca8d" alt="Manage Product" style="max-width: 200px; height: auto;"></td>
+            <td><strong>Manage Product</strong><br>Admin atau pemilik dapat mengelola produk yang telah ditambahkan sebelumnya. Jika terjadi kesalahan pada informasi produk, seperti harga atau deskripsi, admin dapat melakukan edit. Selain itu, admin juga memiliki kemampuan untuk menghapus produk yang sudah tidak relevan, memastikan daftar produk selalu akurat dan up-to-date.</td>
+        </tr>
+        <tr>
             <td><img src="https://github.com/user-attachments/assets/100d36e8-221e-44d8-a6f6-6eafca6b48fd" alt="Add New Product" style="max-width: 200px; height: auto;"></td>
-            <td><strong>Add New Product</strong><br>Pada halaman ini, pemilik atau admin dapat menambahkan produk baru ke dalam website Herbify. Pemilik atau admin akan mengisi informasi produk, termasuk nama produk, harga, memilih kategori yang telah dibuat sebelumnya, deskripsi produk, serta foto produk. Setelah semua informasi terisi, pemilik atau admin cukup mengklik tombol "Add New Product" dan produk akan terupdate secara otomatis di website Herbify untuk dilihat dan dibeli oleh pengguna.</td>
+            <td><strong> Add New Product</strong><br>Pada halaman ini, pemilik atau admin dapat menambahkan produk baru ke dalam website Herbify. Pemilik atau admin akan mengisi informasi produk, termasuk nama produk, harga, memilih kategori yang telah dibuat sebelumnya, deskripsi produk, serta foto produk. Setelah semua informasi terisi, pemilik atau admin cukup mengklik tombol "Add New Product" dan produk akan terupdate secara otomatis di website Herbify untuk dilihat dan dibeli oleh pengguna.</td>
         </tr>
         <tr>
             <td><img src="https://github.com/user-attachments/assets/246b832f-6c64-449c-bddf-3112bd1c982c" alt="Apotek Orders" style="max-width: 200px; height: auto;"></td>
@@ -216,7 +220,6 @@ Herbify menyediakan berbagai fitur untuk mempermudah pengguna dalam mencari dan 
         </tr>
     </tbody>
 </table>
-
 
 ## Kesimpulan
 

@@ -9,7 +9,7 @@ Platform ini tidak hanya mempermudah konsumen dalam menemukan dan membeli produk
 
 ## Link Attachment
 - Link Website : http://herbify.web.id/
-- Link Presentation : https://www.canva.com/design/DAGXYhfna1s/MQitFMVYQuUF9pm20rGrNA/view?utm_content=DAGXYhfna1s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2910cffd13
+- Link Presentation : https://bit.ly/HerbifyPresentation
 - Link Figma : https://www.figma.com/design/lRZdKk7eobSKaRdRaWYhlq/Herbify_WebProgProject?node-id=0-1&t=3kR6ISJt6bGx0TJo-1
 
 ## Team Project

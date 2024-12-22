@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
+use Illuminate\Validation\ValidationException;
 
 class CategoryController extends Controller
 {
@@ -13,6 +16,10 @@ class CategoryController extends Controller
     public function index()
     {
         //
+        $categories = Category::all();
+        return view('admin.categories.index',[
+            'categories' => $categories
+        ]);
     }
 
     /**
@@ -21,6 +28,7 @@ class CategoryController extends Controller
     public function create()
     {
         //
+        return view('admin.categories.create');
     }
 
     /**
@@ -29,6 +37,36 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         //
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'icon' => 'required|image|mimes:png,jpg,svg',
+        ]);
+
+        DB::beginTransaction();
+
+        try {
+            if($request->hasFile('icon')){
+                $iconPath = $request->file('icon')->store('category_icons','public');
+                $validated['icon'] = $iconPath;
+            }
+            $validated['slug'] = Str::slug($request->name);
+
+            $newCategory = Category::create($validated);
+
+            DB::commit();
+
+            return redirect()->route('admin.categories.index');
+
+        } catch (\Exception $e  ) {
+            //throw $th;
+            DB::rollBack();
+            $error = ValidationException::withMessages([
+                'system_error' => ['System Error!' . $e->getMessage()],
+            ]);
+            throw $error;
+        }
+
+        
     }
 
     /**
@@ -45,6 +83,9 @@ class CategoryController extends Controller
     public function edit(Category $category)
     {
         //
+        return view('admin.categories.edit',[
+            'category' => $category
+        ]);
     }
 
     /**
@@ -53,6 +94,34 @@ class CategoryController extends Controller
     public function update(Request $request, Category $category)
     {
         //
+        $validated = $request->validate([
+            'name' => 'sometimes|string|max:255',
+            'icon' => 'sometimes|image|mimes:png,jpg,svg',
+        ]);
+
+        DB::beginTransaction();
+
+        try {
+            if($request->hasFile('icon')){
+                $iconPath = $request->file('icon')->store('category_icons','public');
+                $validated['icon'] = $iconPath;
+            }
+            $validated['slug'] = Str::slug($request->name);
+
+            $category->update($validated);
+
+            DB::commit();
+
+            return redirect()->route('admin.categories.index');
+
+        } catch (\Exception $e  ) {
+            //throw $th;
+            DB::rollBack();
+            $error = ValidationException::withMessages([
+                'system_error' => ['System Error!' . $e->getMessage()],
+            ]);
+            throw $error;
+        }
     }
 
     /**
@@ -61,5 +130,16 @@ class CategoryController extends Controller
     public function destroy(Category $category)
     {
         //
+        try {
+            $category->delete();
+            return redirect()->back();
+        } catch (\Exception $e  ) {
+            //throw $th;
+            DB::rollBack();
+            $error = ValidationException::withMessages([
+                'system_error' => ['System Error!' . $e->getMessage()],
+            ]);
+            throw $error;
+        }
     }
 }

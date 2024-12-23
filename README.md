@@ -229,7 +229,7 @@ Selain itu, Herbify hadir untuk menjawab tantangan terkait peredaran produk jamu
 
 ## Infografis
 
-![Poster Herbify (1)](https://github.com/user-attachments/assets/db1ecca7-6e10-4f63-9e12-5888203ef1a8)
+![Poster Herbify (3)](https://github.com/user-attachments/assets/26c2999e-0108-48d6-bb2e-cd37f913eba0)
 
 # Thank You!!
 
